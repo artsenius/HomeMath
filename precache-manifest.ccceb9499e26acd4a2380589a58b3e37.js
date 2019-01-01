@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/HomeMath/static/css/1.1fc65526.chunk.css"
   },
   {
-    "revision": "266afbafe9b5f6b98e3a96f4ec21a2be",
+    "revision": "cb4188c42271699d6332b54595a67788",
     "url": "/HomeMath/index.html"
   }
 ];
