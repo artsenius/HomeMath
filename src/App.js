@@ -77,6 +77,11 @@ class App extends Component {
     }
   }
 
+  disabled(id) {
+    const row = this.state.rows.filter(el => el.id === id)[0];
+    return row.success;
+  }
+
   successBadge(id) {
     const row = this.state.rows.filter(el => el.id === id)[0];
     if (row.success === '') {
@@ -159,6 +164,7 @@ class App extends Component {
                 <input className="form-control text-center"
                        type="number"
                        onChange={(e) => this.editRow(el.id, 'result', e.target.value)}
+                       disabled={this.disabled(el.id)}
                 />
               </td>
 
