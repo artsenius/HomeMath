@@ -1,13 +1,13 @@
 {
-  "main.js": "/react-gh-pages/static/js/main.3b85a5cd.chunk.js",
-  "main.js.map": "/react-gh-pages/static/js/main.3b85a5cd.chunk.js.map",
-  "static/css/1.1fc65526.chunk.css": "/react-gh-pages/static/css/1.1fc65526.chunk.css",
-  "static/js/1.2df9c0b7.chunk.js": "/react-gh-pages/static/js/1.2df9c0b7.chunk.js",
-  "static/js/1.2df9c0b7.chunk.js.map": "/react-gh-pages/static/js/1.2df9c0b7.chunk.js.map",
-  "runtime~main.js": "/react-gh-pages/static/js/runtime~main.346eb3ee.js",
-  "runtime~main.js.map": "/react-gh-pages/static/js/runtime~main.346eb3ee.js.map",
-  "static/css/1.1fc65526.chunk.css.map": "/react-gh-pages/static/css/1.1fc65526.chunk.css.map",
-  "index.html": "/react-gh-pages/index.html",
-  "precache-manifest.a330a4faea55001e0f341576fafa8c90.js": "/react-gh-pages/precache-manifest.a330a4faea55001e0f341576fafa8c90.js",
-  "service-worker.js": "/react-gh-pages/service-worker.js"
+  "main.js": "/HomeMath/static/js/main.faf76951.chunk.js",
+  "main.js.map": "/HomeMath/static/js/main.faf76951.chunk.js.map",
+  "static/css/1.1fc65526.chunk.css": "/HomeMath/static/css/1.1fc65526.chunk.css",
+  "static/js/1.2df9c0b7.chunk.js": "/HomeMath/static/js/1.2df9c0b7.chunk.js",
+  "static/js/1.2df9c0b7.chunk.js.map": "/HomeMath/static/js/1.2df9c0b7.chunk.js.map",
+  "runtime~main.js": "/HomeMath/static/js/runtime~main.390b7929.js",
+  "runtime~main.js.map": "/HomeMath/static/js/runtime~main.390b7929.js.map",
+  "static/css/1.1fc65526.chunk.css.map": "/HomeMath/static/css/1.1fc65526.chunk.css.map",
+  "index.html": "/HomeMath/index.html",
+  "precache-manifest.a152b6af89ea885191340c4ac7c45444.js": "/HomeMath/precache-manifest.a152b6af89ea885191340c4ac7c45444.js",
+  "service-worker.js": "/HomeMath/service-worker.js"
 }
