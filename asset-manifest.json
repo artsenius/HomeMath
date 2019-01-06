@@ -1,13 +1,15 @@
 {
-  "main.js": "/HomeMath/static/js/main.c0a82c49.chunk.js",
-  "main.js.map": "/HomeMath/static/js/main.c0a82c49.chunk.js.map",
-  "static/css/1.1fc65526.chunk.css": "/HomeMath/static/css/1.1fc65526.chunk.css",
-  "static/js/1.2df9c0b7.chunk.js": "/HomeMath/static/js/1.2df9c0b7.chunk.js",
-  "static/js/1.2df9c0b7.chunk.js.map": "/HomeMath/static/js/1.2df9c0b7.chunk.js.map",
+  "main.js": "/HomeMath/static/js/main.26708321.chunk.js",
+  "main.js.map": "/HomeMath/static/js/main.26708321.chunk.js.map",
+  "static/css/1.0b7218f0.chunk.css": "/HomeMath/static/css/1.0b7218f0.chunk.css",
+  "static/js/1.5387aa2a.chunk.js": "/HomeMath/static/js/1.5387aa2a.chunk.js",
+  "static/js/1.5387aa2a.chunk.js.map": "/HomeMath/static/js/1.5387aa2a.chunk.js.map",
   "runtime~main.js": "/HomeMath/static/js/runtime~main.390b7929.js",
   "runtime~main.js.map": "/HomeMath/static/js/runtime~main.390b7929.js.map",
-  "static/css/1.1fc65526.chunk.css.map": "/HomeMath/static/css/1.1fc65526.chunk.css.map",
+  "static/css/1.0b7218f0.chunk.css.map": "/HomeMath/static/css/1.0b7218f0.chunk.css.map",
+  "static/media/transp.png": "/HomeMath/static/media/transp.1e49b7d4.png",
+  "static/media/squares.png": "/HomeMath/static/media/squares.84d3ee12.png",
   "index.html": "/HomeMath/index.html",
-  "precache-manifest.ccceb9499e26acd4a2380589a58b3e37.js": "/HomeMath/precache-manifest.ccceb9499e26acd4a2380589a58b3e37.js",
+  "precache-manifest.fdb2da3d584e2636b70bf9bd9d34895c.js": "/HomeMath/precache-manifest.fdb2da3d584e2636b70bf9bd9d34895c.js",
   "service-worker.js": "/HomeMath/service-worker.js"
 }
