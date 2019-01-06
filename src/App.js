@@ -100,11 +100,11 @@ class App extends Component {
     if (row.success === '') {
       return <td>
         <div align="center">
-          <img onClick={operation === '+' ?
+          <img onClick={operation === '+' || '-'?
             () => this.columnHelp(id, input1, input2, operation)
           :
             console.log('for future')}
-               src={operation === '+' ? squares : transparent}
+               src={operation === '+' || '-' ? squares : transparent}
                alt="help"
                height={38}/>
         </div>
@@ -210,16 +210,18 @@ class App extends Component {
   }
 
   columnCheck() {
-    const row = this.state.rows.filter(el => el.id === this.state.columnId)[0];
+    let success = false;
+    const row = (this.state.rows.filter(el => el.id === this.state.columnId)[0]);
     const res =
-      this.state.columnResult[1] +
+      +(this.state.columnResult[1] +
       this.state.columnResult[2] +
       this.state.columnResult[3] +
-      this.state.columnResult[4];
-    +res === +row.input1 + +row.input2 ?
-      this.columnGood(res)
+      this.state.columnResult[4]);
+    this.state.columnOperation === '+' ?
+      success = res === +row.input1 + +row.input2
       :
-      this.columnBad()
+      success = res === +row.input1 - +row.input2;
+      success ? this.columnGood(res.toString()) : this.columnBad()
   }
 
   columnGood(res) {
@@ -274,7 +276,7 @@ class App extends Component {
 
           <div>
 
-            {this.state.columnOperation === '+' ?
+            {this.state.columnOperation === '+' || '-' ?
               this.columnAddition()
               :
               this.columnNotReady()
