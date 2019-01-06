@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/HomeMath/static/js/runtime~main.390b7929.js"
   },
   {
-    "revision": "267083210046bdc9df95",
-    "url": "/HomeMath/static/js/main.26708321.chunk.js"
+    "revision": "db1b647366c3e24330af",
+    "url": "/HomeMath/static/js/main.db1b6473.chunk.js"
   },
   {
     "revision": "5387aa2aca9f3a308060",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/HomeMath/static/css/1.0b7218f0.chunk.css"
   },
   {
-    "revision": "3e426a4af4cfd79841c3e09bdba253b1",
+    "revision": "afac0d1172b479c22df3e7f683a864a2",
     "url": "/HomeMath/index.html"
   }
 ];
