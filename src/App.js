@@ -140,6 +140,8 @@ class App extends Component {
       width: "100%"
     };
     return <div>
+      <button className="btn btn-dark mb-2"
+              onClick={() => this.clearColumnState()}>{'< Back'}</button>
       <table className="table-bordered mb-2" style={tableStyle}>
         <tbody>
         {this.columnFirstRow()}
@@ -177,7 +179,7 @@ class App extends Component {
   columnSecondRow() {
     let array = this.state.columnInput2.split('');
     return <tr style={{fontSize: "300%"}}>
-      <td height={187}> </td>
+      <td height={187}>{this.state.columnOperation}</td>
       <td height={187}>{array[array.length - 3] || ' '}</td>
       <td height={187}>{array[array.length - 2] || ' '}</td>
       <td height={187}>{array[array.length - 1]}</td>
