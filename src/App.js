@@ -7,6 +7,7 @@ import like from './png/like.png';
 import dislike from './png/dislike.png';
 import transparent from './png/transp.png';
 import squares from './png/squares.png';
+import './css/custom.css';
 
 class App extends Component {
 
@@ -100,12 +101,13 @@ class App extends Component {
     if (row.success === '') {
       return <td>
         <div align="center">
-          <img onClick={operation === '+' || '-'?
+          <img onClick={operation === '+' || operation === '-' ?
             () => this.columnHelp(id, input1, input2, operation)
           :
-            console.log('for future')}
-               src={operation === '+' || '-' ? squares : transparent}
+            () => console.log('for future')}
+               src={operation === '+' || operation === '-' ? squares : transparent}
                alt="help"
+               className="button-hover"
                height={38}/>
         </div>
       </td>
@@ -222,7 +224,13 @@ class App extends Component {
     this.state.columnOperation === '+' ?
       success = res === +row.input1 + +row.input2
       :
-      success = res === +row.input1 - +row.input2;
+      this.state.columnOperation === '-' ?
+        success = res === +row.input1 - +row.input2
+        :
+        this.state.columnOperation === 'x' ?
+          success = res === +row.input1 * +row.input2
+          :
+          success = res === +row.input1 / +row.input2;
       success ? this.columnGood(res.toString()) : this.columnBad()
   }
 
