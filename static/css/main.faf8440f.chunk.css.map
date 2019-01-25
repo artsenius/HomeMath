@@ -1,1 +1,0 @@
-{"version":3,"sources":["/Users/asenko/projects/home-math/src/css/custom.css","main.faf8440f.chunk.css"],"names":[],"mappings":"AAAA,cACI,cAAgB,CCCnB","file":"main.faf8440f.chunk.css","sourcesContent":[".button-hover {\n    cursor: pointer;\n}",".button-hover {\n    cursor: pointer;\n}\n"]}
